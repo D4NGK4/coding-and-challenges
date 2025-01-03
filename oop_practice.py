@@ -7,6 +7,9 @@ class base_entity:
         self.entity_health = entity_health
         self.entity_mana = entity_mana
 
+class items:
 
+    def __init__(self, item_type):
+        self.item_type = item_type
 
     
