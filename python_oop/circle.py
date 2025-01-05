@@ -11,4 +11,7 @@ class Circle:
     def calculate_perimeter(self):
         return 2 * math.pi * self.radius
 
+radius = Circle(14)
 
+
+print(radius.calculate_perimeter)
