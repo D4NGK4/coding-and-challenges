@@ -5,8 +5,7 @@ s = list(s)
 
 dictionary = {}
 
+
 for i in range(len(indices)):
     item = {s[i]: indices[i]}
     dictionary.append(item)
-
-print(dictionary)
